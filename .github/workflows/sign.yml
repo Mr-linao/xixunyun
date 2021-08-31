@@ -9,7 +9,7 @@ on:
       - main
   schedule:
     - cron: 0 0 * * *
-    - cron: 00 0 19 * * ? *
+
       
 jobs:
   build:
