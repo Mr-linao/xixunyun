@@ -8,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: 30 21,12 * * * 
+    - cron: 30 0,15 * * * 
 
       
 jobs:
