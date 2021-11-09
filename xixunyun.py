@@ -33,7 +33,7 @@ headers={
     "User-Agent":"Mozilla/5.0 (Linux; Android 9; SM-A102U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Mobile Safari/537.36",
     'Content-Type': 'application/json'
 }
-url='http://pushplus.hxtrip.com/send'
+url='http://pushplus.hxtrip.com/'
 data={'token':'ff9c3611d6624c478956accbff26f67b','title':'习讯云签到','content':'xxxx','template':'html'}
 res=requests.post(headers=headers,url=url,data=json.dumps(data),timeout=10)
 print(res.status_code)
